@@ -1,0 +1,195 @@
+.ward {
+	margin-top: 9rem;
+}
+.ward .col-lg-2 .border {
+	transform: rotate(-90deg);
+	font-size: 26px;
+	font-family: 'Anton', sans-serif;
+	color: #011627;
+
+	margin: none;
+	margin: none;
+}
+
+p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.img-pfp-rotate {
+	display: none;
+}
+.img-ward {
+	max-width: 100%;
+	height: auto;
+}
+.img-slash {
+	max-width: 100%;
+	height: auto;
+	margin-top: 15%;
+}
+.border-text {
+	margin-top: 2rem;
+}
+.nav-link {
+	border-bottom: 3px solid;
+	
+}
+.transition {
+	transition: 0.2s;
+}
+.nav-link:hover {
+	border-bottom: none;
+}
+.img-pfp {
+	max-width: 35%;
+	height: auto;
+}
+.slash-more {
+	display: none;
+}
+
+
+.navbar-brand {
+	border-bottom: 3px solid;
+}
+.nav-link {
+	color: #011627 !important;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+	.navig {
+		max-width: 100%;
+		padding: 0;
+	}
+	.img-pfp {
+		display: none;
+	}
+	.img-pfp-rotate {
+		display: initial;
+		max-width: 25%;
+		height: auto;
+	}
+	.pfp-right {
+		text-align: right !important;
+	}
+	.nav-link {
+		border-bottom: none;
+
+	}
+	.padding-pfp {
+		margin-bottom: 3%;
+	}
+	.ward {
+		margin-top: 3rem;
+	}
+	.img-slash {
+		display: none;
+	}
+	.slash-more {
+		display: initial;
+		max-width: 100%;
+		height: auto;
+	}
+	.navbar {
+		padding: 8px 0;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.container {
+		max-width: 100%;
+	}
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.img-pfp {
+		max-width: 100%;
+		height: auto;
+	}
+	.nav-link {
+		border-bottom: none;
+
+	}
+	.img-slash {
+		max-width: 100%;
+		height: auto;
+	}
+	.ward {
+		margin-top: 3rem;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container {
+		max-width: 100%;
+	}
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	header .nav-item {
+		margin-left: 0;
+	}
+	.ward .col-lg-2 .border {
+		transform: rotate(-90deg);
+		font-size: 26px;
+		font-family: 'Anton', sans-serif;
+		color: #011627;
+		padding-left: 15px;
+		padding-right: 150px;
+	}
+	.img-pfp {
+		max-width: 30%;
+		height: auto;
+	}
+	.img-ward {
+		max-width: 100%;
+		height: auto;
+	}
+	.img-slash {
+		max-width: 100%;
+		height: auto;
+	}
+	.nav-link {
+		border-bottom: none;
+
+	}
+}
+
+@media (max-width: 991.98px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		max-width: 80%;
+	}
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 70%;
+	}
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+
+
+
+
